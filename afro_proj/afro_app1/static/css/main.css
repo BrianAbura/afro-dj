@@ -17,3 +17,29 @@ header{
 header li{
     display: inline;
 }
+.logo{
+    color: rgb(247, 150, 38);
+    font-size: x-large;
+}
+header a{
+    text-decoration: none;
+    color: beige;
+}
+.regdiv{
+    text-align: center;
+}
+#regform{
+    width: 85%;
+    padding: 15px;
+}
+#regform input{
+    padding: 15px;
+    width: 80%;
+}
+#regform button{
+    padding: 5px;
+    margin: 10px;
+    width: 30%;
+    background-color: rgba(12, 172, 12, 0.726);
+    color: beige;
+}
