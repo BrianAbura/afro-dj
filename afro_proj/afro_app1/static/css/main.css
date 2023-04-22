@@ -1,0 +1,19 @@
+header{
+    background-color: midnightblue;
+    color: beige;
+    min-height: 70px;
+    padding: 20px;
+}
+.navlink{
+    float: right;
+    margin-right: 35px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.title{
+    color: rgba(0, 0, 0, 0.945);
+    text-transform: uppercase;
+}
+header li{
+    display: inline;
+}
