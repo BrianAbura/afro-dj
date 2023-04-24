@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.contrib.auth import authenticate, login, logout
 
 # Create your views here.
 def index(request):
@@ -9,3 +10,16 @@ def index(request):
 
 def register(request):
     return render(request, 'register.html')
+
+def registration(request):
+    if request == "POST":
+        firstname = request.POST.GET['firstname']
+        lastname = request.POST.GET['lastname']
+        email = request.POST.GET['emaiil']
+        password = request.POST.GET['password']
+        password_repeat = request.POST.GET['password_repeat']
+        
+        user_details = [firstname, lastname, email, password, password_repeat]      
+        print(user_details)
+    else:
+        pass 

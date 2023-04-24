@@ -35,11 +35,12 @@ header a{
 #regform input{
     padding: 15px;
     width: 80%;
+    min-height: 10px;
 }
 #regform button{
-    padding: 5px;
+    padding: 15px;
     margin: 10px;
     width: 30%;
-    background-color: rgba(12, 172, 12, 0.726);
+    background-color: rgba(2, 197, 2, 0.801);
     color: beige;
 }
