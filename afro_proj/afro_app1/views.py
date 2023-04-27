@@ -19,5 +19,4 @@ def registration(request):
     password_repeat = request.POST['password_repeat']
     
     user_details = [firstname, lastname, email, password, password_repeat]      
-    print(user_details)
     return render(request, 'index.html', {'user_details': user_details})

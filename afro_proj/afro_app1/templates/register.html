@@ -29,6 +29,7 @@
     <div class="regdiv">
         <form action="{% url 'registration' %}" method="POST" id="regform" enctype="multipart/form-data">
            {% csrf_token %}
+           <!--The token informs Django that the data posted originated from this application-->
             <input type="text"  placeholder="First Name" name="firstname">
             <input type="text"  placeholder="Last Name" name="lastname">
             <input type="email" placeholder="Email Address" name="email">
